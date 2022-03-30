@@ -14,8 +14,9 @@
 1. Sobre o ' Rick and Morty Lovers'
 2. Histórias de Usuário
 3. Protótipos
-4. Tecnologias Utilizadas
-5. Desenvolvedora
+4. Interface do Projeto
+5. Tecnologias Utilizadas
+6. Desenvolvedora
 
 #
        
@@ -64,7 +65,7 @@ Através de pesquisas, descobri o que os usuários esperavam e desejavam encontr
 
   <img src="https://lh3.googleusercontent.com/BN16bggz0qG1Qi7Krle8lvpiVyT382zeH5KzcPL621HTQ4hOJU44zGnId7D_LSdpLpslg7QKfZqsLSlfyzCM6OV-46UzgY-TTW0XNNcOCc5NhnFEZNCqk1FfHinTwM6BxJODEhueoIYjS4wrgmAOQN1GYtUonIK0hT5KEziTjmPqyZoV1E8VAj7HYal7O0cbB8XZEgc7cJGzoXCm9ffMCxt_gfnD4LgKdRXxWgDckVAmKcOVuksH8GKZUdRS0sKRadSExVuttcalc7YniMVeV91xJ8hFCHQKNXjPUmncBkWDnV0qv7odiuq7aUZWpYuUIRywctUKobTvhaNKTlXzw-rP4SAk_dm0lLPJGLT6sG0EjPFV37Z23ZOzWh-awYw01J6LN0WgBbc3-RnEkby8AOfGaLF49POV2LLvloFIZU-tqL8SduBxRS-J1vTHpk9CQBRmmX5rDxh6ryUTKgaLAxPlrwtOx4WgALRng-SqPyaa20DwgPO9gn6KDJ-rQRv0QkG3X5_sXnY5aLqWtYtv0detqTXblABTFugS8C3qU2x4KOwAedyhnjLivsUAyORkH1ffdPn6kqhMQxWYx1lqPWAtaZ4bu3efGcEd-E6xknbPl75u1v-mNtnraIyJkX0zP1eM-YRJvRfP8_MAGHbZ79ICsQo_eLvBJkhZXLFKSJuy8udjaYMFkxpxqttWqFP4vMnmKHWmB6eCMKAAVOlpfKMgUeffR5RZGT4YeNWMA-nNBre5X9EJJxOIWoN73Y7QeWsLAjyi1M43ciDndOvHmm50JYlDh54KEFO_TSkzvQO2nlNzQvSb8mAMFP-POhA4cQ=w600-h300-no?authuser=0" />
 
-  <br>
+  <br><br>
 
   * Protótipo de Baixa Fidelidade <br>
     feito no papel
@@ -74,8 +75,12 @@ Através de pesquisas, descobri o que os usuários esperavam e desejavam encontr
 <br>
 
 #
+## ✅ 4. Interface do projeto    
+  <br>
+  <img src="https://lh3.googleusercontent.com/bzgx_k5e11TFt9khotSYHGX_IOLVXh5a4m5XUGiKljA3n8BbqxMjaHctHjBv0r5LLzh9sSOkSSH4ysNxB8ByzC7-sG9okMtp3MzNfx5wXIljEiuZcAeX2UQGhUK3_Eljxi-zIBaf4xYTPzHdaJFnvT2o81TprxtRuOzvt_1iA8adrKIi8AWc3X9NCpbUacmCRiZqN_4iMQCR9tVvCgBA6TJbylY4scH0DZirqV5KHbiOtM9vxsveBYqqE5OGS1ueWJqnUPnZqlOiDsRcq2QJwKOJa0ZOm5zR7Q147KV4x-v0536W4KRKC-9-aKkhui10UYosyFSkW8CIHi0UAWcJ234YEGHaYmP5GdTAhbTTPglO3lLNV4TW73w4E65LsT_TOPfBK2GU3SzBlAFYmIT7HBY3o2kMO30VM-e2FvhREPJMGHp2xOsIVP8RYeeWUeJBbacmk3BvXAFpkNBZ0uYmSxBWXGbroq1UUI0eM4jRzoxIz8IlIuDFx4B5nXJBeAceDMOu_J03zPmnEav3tcjnxLjQKLy8RIgB_LQhf98dtg4a9YCQunCVcPRfgspm9cy1Xj7x--OxAHm3Y6j3Z7VQxf8wzx_VAOBlh-k7swfXRAvj4cOI5OYXuSBq2lrfeeFB8d0RXkT_pIn5niIwnfSESLc5ZL5HUeBcibxf2WqXADH-_eTe7peRBdmn8kUWwXZ8QKS350q0euQIKMb8vBJ5dyiJZSTtzDIuLP5pIHhCNoOnSc_MSwGYE7ORkk3b8vUiyZbgvhp5gHF6bMYWYDa9LRG9Y41l9jloWNWZ3uoIpuL59p1_bvNLzsJDennbp__eRIM=w631-h300-no?authuser=0"/>
+  
 
-## 💻 4. Tecnologias Utilizadas
+## 💻 5. Tecnologias Utilizadas
 <br> 
 
  * > Planejamento : Trello
@@ -88,6 +93,6 @@ Através de pesquisas, descobri o que os usuários esperavam e desejavam encontr
 
  #
 
- ## 🎀 Criado por [Ana Clara Freitas](https://www.linkedin.com/in/ana-clara-freitas-454513230/)
+ ## 🎀 6. Criado por [Ana Clara Freitas](https://www.linkedin.com/in/ana-clara-freitas-454513230/)
 
 
