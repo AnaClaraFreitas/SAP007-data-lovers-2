@@ -13,7 +13,7 @@
   
 1. Sobre o ' Rick and Morty Lovers'
 2. Histórias de Usuário
-3. Protótipos)
+3. Protótipos
 4. Tecnologias Utilizadas
 5. Desenvolvedora
 
