@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+    <meta charset="utf-8">
+    <title>Rick and Morty Lovers </title>
+    <link rel="shortcut icon" href="./iconeDoRick.png"/>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @font-face {
+        font-family: Melted Monster;
+        src:url('Melted Monster.ttf')
+      }
+      @font-face{
+        font-family:  Hello Avocado;
+        src:url('Hello Avocado.ttf')
+      }
+      .card,
+      .selectOrder,
+      .status,
+      .especie,
+      .genero,
+      .select,
+      .limpar,
+      .btn,
+      .search,
+      .name
+       {
+        font-family: Melted Monster ;
+      }
+      .texto-card,
+      .titulo,
+      .estatísticas{
+        font-family: Hello Avocado;
+      }
+    </style>
+  </head>  
+  <body>
+    <section>
+       <nav>
+        <div class="titulo">
+          <span class="um">F</span>
+          <span class="dois">I</span>
+          <span class="tres">L</span>
+          <span class="quatro">T</span>
+          <span class="cinco">R</span>
+          <span class="seis">O</span>
+          <span class="sete">S</span>
+        </div>
+   <div class="filtroMenu"></div>
+    <input type="search" class ="search" id="pesquisar" placeholder="Buscar">
+   <div class="calcular" id = "porcentFilter"></div>
+   <div class="filtros" id="filtroSort">
+       <button id="btn-AZ" class="btn">Ordenar A-Z</button>
+        <button id= "btn-ZA" class="btn">Ordenar Z-A</button>
+    </div>
+     <div class="filtros" id="filtroStatus">
+       <select class="status" id="status">
+         <option selected disable value ="">Status</option>
+         <option value="alive">Vivo</option>
+         <option value="dead">Morto</option>
+         <option value="unknown">Desconhecido</option>
+       </select>
+     </div>
+     <div class="filtros" id="filtroEspecie">
+       <select class="especie" id="especie">
+         <option selected disable value="">Espécie</option>
+         <option  value="alien">Alien</option>
+         <option  value="animal">Animal</option>
+         <option  value="cronenberg">Cronenberg</option>
+         <option  value="disease">Disease</option>
+         <option  value="human">Human</option>
+         <option  value="humanoid">Humanoid</option>
+         <option  value="mitholog">Mitholog</option>
+         <option  value="parasite">Parasite</option>
+         <option  value="poopybutthole">Poopybutthole</option>
+         <option  value="robot">Robot</option>
+         <option  value="vampire">Vampire</option>      
+    </select>
+     </div>
+    <div class="filtros" id="filtroGenero">
+      <select class="genero" id="genero">
+       <option selected disable value ="">Gênero</option>
+       <option value="female">Feminino</option>
+       <option value="male">Masculino</option>
+       <option value="unknown">Indefinido</option>
+      </select>  
+    </div> 
+    <section>
+      <p class="estatísticas" id="filtroPorcentagem"></p>
+    </section>
+  </nav>
+   <aside>
+      <div class="icones" id="github" >
+        <a href="https://github.com/AnaClaraFreitas" target="_blank"> 
+          <img class="rede" src="./github.png"/>
+        </a>
+      </div>
+      <div class="icones" id="linkedin">
+        <a href="https://www.linkedin.com/in/ana-clara-freitas-454513230/" target="_blank">
+          <img class="rede1" src ="./linkedin.png"/>
+        </a>
+      </div>
+      <div class="icones" id="email">
+        <a href="mailto:anaclarafreitas077@gmail.com" target="_blank"> 
+          <img class="rede2" src="./gmail.png"/>
+        </a>
+        </div>
+     </aside>
+     </section>
+          <main>
+            <div id="resultado"></div>
+          </main>
+          <button class="subir-pagina" id="subir-pagina"><img src="./setaReta.png" id="image-seta"></button>
+    <script src ="main.js" type="module"></script>
+  </body>
+</html>
