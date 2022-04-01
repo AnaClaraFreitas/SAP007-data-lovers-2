@@ -1,0 +1,264 @@
+body{
+    padding: 0;
+    margin: 0;  
+    background-image: url(./céu.jpg); 
+    background-attachment: fixed;
+}
+main{
+    text-align: center;  
+    margin-bottom: 40px;
+}
+#resultado{
+    margin: 0 21em;
+    margin-right: 25px;
+}
+.estatísticas{
+    position: absolute;
+    margin-right: 20px;
+    margin-top: 10%;
+    font-size: 15px;
+    text-align: left;
+    text-shadow: 0.2em 0.1em black ;
+    text-decoration-skip:unset;
+    padding: 10px;
+    color: rgb(163, 151, 151);
+    background: rgb(9, 2, 26);
+    border-radius: 25px;
+    border: inset rgb(117, 103, 124);
+}
+.cardes{
+    display: inline-block;
+    width: 15em;
+    height: 22em;
+    padding:10px;
+    margin-top: 40px;
+    border: inset rgb(191, 163, 206);
+    background-color: rgb(157, 128, 165);
+    border-radius: 40px;
+}
+.cardes:hover{
+    border-radius: 60px;
+    background-color: rgb(160, 118, 172);
+    transition: all 0.3s;
+}
+.texto-card{
+    list-style: none;
+    line-height: 1.5em;
+    text-align: center;
+    color: rgb(243, 239, 235);
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+}
+#imagem-card{
+    margin: 0;
+    border-radius: 25px;
+    width: 12em;
+    height: 1;
+    border-top: solid pink;
+    border-left: solid rgb(236, 236, 124);
+    border-right: solid rgb(135, 165, 194);
+    border-bottom: solid rgb(243, 198, 113);
+}
+#imagem-card:hover{
+    border-top: solid rgb(231, 169, 54);
+    border-bottom: solid pink;
+    border-right: solid rgb(236, 236, 124);
+    border-left: solid rgb(135, 165, 194);
+}
+.name{
+    font-size: 20px;
+    color: rgb(69, 84, 124);
+    text-shadow: 0 2px rgb(18, 19, 18);
+}
+aside{
+    background-color: rgb(71, 70, 67);
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    border-right: inset rgb(159, 159, 211);
+    border-top: inset rgb(159, 159, 211);
+}
+.icones{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 50%;
+    transition: all 0.4s ease-out;
+}
+.icones:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 4px 15px 14px 0px rgba(32, 30, 30, 0.45);
+}
+.rede{
+    height: 50px;
+    width: 50px;
+}
+.rede1{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.rede2{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 9px;
+}
+.icones#linkedin{
+    background-color: rgb(166, 203, 224);
+}
+.icones#github{
+    background-color: rgb(209, 187, 187);
+}
+.icones#email{
+    background-color: rgb(224, 187, 187);
+}
+.titulo{
+    font-size:17px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+span.um{
+    color: white;
+}
+span.dois{
+   color: rgb(173, 136, 207);
+}
+span.tres{
+    color: rgb(195, 229, 143);
+}
+span.quatro{
+   color: aquamarine;
+}
+span.cinco{
+   color: rgb(160, 96, 157);
+}
+span.seis{
+   color: rgb(238, 240, 111);
+}
+span.sete{
+   color: rgb(228, 156, 22);
+}
+nav{
+    background: rgb(27, 27, 27);
+    border-radius: 0 15px 10px 0;
+    height: 100%;
+    margin-top: 0;
+    width: 240px;
+    position: fixed;
+    padding-left: 100px;
+    letter-spacing: 10px;
+    border-top:  inset rgb(159, 159, 211);
+}
+.pesquisar{
+    margin-top: 80px;
+    color: rgba(117, 224, 241, 0.644);
+}
+.pesquisar:hover{
+    color: rgb(224, 216, 216);
+    transform: translateY(-1px);
+}
+.status{
+    background-color:rgb(20, 8, 26);
+    color:rgba(117, 224, 241, 0.644);
+    border-color: rgb(115, 124, 143);
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding:10px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.status:hover{
+    color: rgb(224, 216, 216);
+    transform: translateY(-1px);
+}
+.especie{
+    background-color:rgb(20, 8, 26);
+    color:rgba(117, 224, 241, 0.644);
+    border-color:rgb(115, 124, 143);
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding:10px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.especie:hover{
+    color: rgb(224, 216, 216);
+    transform: translateY(-1px);
+}
+.genero{
+    background-color:rgb(20, 8, 26);
+    color:rgba(117, 224, 241, 0.644);
+    border-color: rgb(115, 124, 143);
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding:10px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.genero:hover{
+    color: rgb(230, 215, 215);
+    transform: translateY(-1px);
+}
+.search{
+    background-color:rgb(20, 8, 26);
+    color:rgba(117, 224, 241, 0.644);
+    border-color: rgb(115, 124, 143);
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.search:hover{
+    color: rgb(241, 233, 233);
+    transform: translateY(-1px);
+}
+.btn{
+    background-color:rgb(20, 8, 26);
+    color: rgba(117, 224, 241, 0.644);
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 15px;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-color: rgb(115, 124, 143);
+    width: 130px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(224, 216, 216);
+    transform: translateY(-1px);
+}
+.subir-pagina{
+    border: transparent;
+    position: fixed;
+    bottom: 9px;
+    right: 1px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#image-seta{
+    width: 60px;
+    background-color: transparent;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(188, 176, 190);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, rgb(244, 237, 245));
+    border-radius: 6px;
+}
