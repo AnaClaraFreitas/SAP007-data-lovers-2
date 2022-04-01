@@ -67,7 +67,7 @@ subir.addEventListener('click',subirPagina)
 function mostrarEspecies(e){
     const resultadoEspecie = filterSpecies(data.results, e.target.value);
     const porcentagemEspecie = 
-    `Esta categoria representa ${calcular(data.results.length, resultadoEspecie.length)}% dos personagens!`;
+    ` ${calcular(data.results.length, resultadoEspecie.length)}% dos personagens!`;
     mostrarPorcentagem(porcentagemEspecie)
     return showCards(resultadoEspecie);
 }
@@ -77,7 +77,7 @@ filtroEspecie.addEventListener("change", mostrarEspecies)
 function mostrarGenero(e){
     const resultadoGenero = filterGender(data.results, e.target.value);
     const porcentagemGenero = 
-    `Esta categoria representa${calcular(data.results.length, resultadoGenero.length)}% dos personagens!`;
+    `${calcular(data.results.length, resultadoGenero.length)}% dos personagens!`;
     mostrarPorcentagem(porcentagemGenero)
     return showCards(resultadoGenero);
 }
@@ -87,7 +87,7 @@ filtroGenero.addEventListener("change",mostrarGenero)
 function mostrarStatus(e){
     const resultadoStatus = filterStatus(data.results, e.target.value);
     const porcentagemStatus = 
-    `Esta categoria representa ${calcular(data.results.length, resultadoStatus.length)}% dos personagens!`;
+    ` ${calcular(data.results.length, resultadoStatus.length)}% dos personagens!`;
     mostrarPorcentagem(porcentagemStatus)
     return showCards(resultadoStatus);
 }

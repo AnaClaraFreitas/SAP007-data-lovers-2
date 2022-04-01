@@ -14,7 +14,6 @@ main{
 }
 .estatísticas{
     position: absolute;
-    margin-left: 0px;
     margin-right: 20px;
     margin-top: 10%;
     font-size: 15px;
@@ -22,7 +21,7 @@ main{
     text-shadow: 0.2em 0.1em black ;
     text-decoration-skip:unset;
     padding: 10px;
-    color: rgb(150, 129, 129);
+    color: rgb(163, 151, 151);
     background: rgb(9, 2, 26);
     border-radius: 25px;
     border: inset rgb(117, 103, 124);
@@ -155,7 +154,7 @@ nav{
     border-top:  inset rgb(159, 159, 211);
 }
 .pesquisar{
-    margin-top: 40px;
+    margin-top: 80px;
     color: rgba(117, 224, 241, 0.644);
 }
 .pesquisar:hover{
@@ -207,7 +206,7 @@ nav{
     font-size: 20px;
 }
 .genero:hover{
-    color: rgb(224, 216, 216);
+    color: rgb(230, 215, 215);
     transform: translateY(-1px);
 }
 .search{
